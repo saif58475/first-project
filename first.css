@@ -1,0 +1,346 @@
+                        
+
+                               /* animation for the header*/
+
+
+.logonav-container{
+	width: 100%;
+	height: 60px;
+	background: #faebd7	;
+	margin: auto;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+}
+
+.logonav-container .logobox {
+
+width: 30%;
+float: left;
+margin-left: 50px;
+}
+
+.logonav-container .navbar{
+	list-style: none;
+text-decoration: none;
+float: right;
+width: 50%;
+height: 100%;
+
+}
+
+.logonav-container .navbar li{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.logonav-container .navbar li a{
+font-size: 1.5rem;
+font-style: inherit;
+color: 	#ff7f50;
+text-decoration: none;
+display: block;
+padding: 0px 20px;
+
+}
+.logonav-container .navbar li a:hover{
+border: 0.05 silver;
+border-radius: 15px;
+background-color: lightblue;
+transition: 1s;
+}
+
+.logonav-container .navbar .dropdown-list {
+ display: none;
+   
+}
+
+ .logonav-container .navbar .dropdown-container:hover .dropdown-list {
+ display: block;
+  position: absolute;
+
+}
+
+
+
+.clear{
+	clear: both;
+}
+
+                                    /* body container animation */
+
+.body-container {
+	width: 100%;
+	margin: 20px 0;
+	
+	height: auto;
+	display: inline-block;
+	position: relative;
+	top: 250px;
+	left: 0px;
+}                                    
+
+.body-container .body-first {
+	width: 20%;
+	display: inline-block;
+
+
+}
+.body-container .body-first .social-list{
+	list-style: none;
+
+}
+
+.body-container .body-first .social-list li {
+	margin-bottom: 20px;
+}
+
+.body-container .body-first .social-list li:hover {
+	background: red;
+	width: 30px;
+	border-radius:15px;
+	transition: 1s;
+}
+
+.body-container .body-second{
+	display: inline-block;
+	font-family: 'Varela Round' , sans-serif;
+	font-size: 1.5em;
+	width: 60%;
+	padding: 20px 0px;
+	margin-left: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.body-second .btn{
+width: 200px;
+height: 45px;
+font-weight: bold;
+border: 0;
+border-radius: 5px;
+padding: 5px;
+font-size: 1em;
+}
+.body-second .btn a{
+	text-decoration: none;
+
+}
+.body-second  .first-button{
+	background-color: #ff69b4;
+}
+.body-second  .second-button  {
+		background-color: lightblue;
+
+	}
+.body-second  .first-button  a{
+	color: white;
+}
+.body-second  .second-button  a{
+	color: white;
+}
+.body-second .btn:hover {
+	background-color:#ff6347;
+	transition: 1s;
+}
+                                         /* section header */
+
+.ltr-effect{
+	position: relative;
+}
+
+.ltr-effect:after{
+position: absolute;
+content: "";
+width: 0;
+top: 0;
+left: 0;
+right: 0;
+background: #333;
+z-index: -1;
+transition: width 0.5s;
+}
+
+.ltr-effect:hover:after {
+width: 100%;
+}
+
+.section-header{
+   	margin-top: 400px;
+   	text-align: center;
+   	text-transform: uppercase;
+   	font-family: inherit;
+   	margin-bottom: 30px;
+   	padding: 30px 0px;
+   	line-height: 30px;
+   	
+   }
+
+.section-header .section-title{
+	font-weight: 900;
+	font-size: 3em;
+}
+
+.section-header .boxes-container .thebox{
+ 	margin: 0px 20px;
+ 	max-width: 30%;
+ 	border: 0.1em solid #e8e8e8;
+ 	display: inline-block;
+ 	border-radius: 20px;
+ 	font-family: 'Varela Round' , sans-serif;
+
+ }
+
+.section-header .boxes-container .thebox button{
+ 	background-color: transparent;
+ 	border: 0;
+
+ }
+.section-header .boxes-container .thebox button:hover{
+	cursor: pointer;
+    border-radius: 20px;
+	border: 0.2em solid red;
+}
+
+.section-header .boxes-container .thebox:hover {
+ 	background-color: black;
+ 	color: #fff;
+ 	opacity: 0.7;
+ 	transition: 2s;
+ 	cursor: pointer;
+ }
+ 
+                                         /* second section header */
+
+.second-section-header{
+	margin-top: 30px;
+	min-height: 800px;
+	text-align: center;
+	font-size: 2em;
+    padding: 60px;
+    background-color: #f9f9f9;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    right: 0px;
+}
+.second-section-header .sechedbox{
+	display: inline-block;
+	width: 30%;
+	margin-left: 20px;
+	margin-top: 20px;
+    padding: 10px;
+    min-width: 40px;
+    min-height: 400px;
+    position: relative;
+}
+
+.second-section-header .sechedbox .layer-content{
+   position: absolute;
+   border-radius: 10px;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.4);
+   color: white;
+   visibility: hidden;  
+}
+
+.layer-content .layerinfo{
+ position: absolute;
+ 
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ width: 60%;
+}
+
+.second-section-header .sechedbox:hover .layer-content{
+	visibility: visible;
+	cursor: pointer;
+}
+
+
+
+                                               /*THE THIRD BOX*/
+
+.third-section{
+ background-image: url(pics/thry.jpg);
+ background-size: cover;
+	margin-top: 1300px ;
+	margin-bottom: 200px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	width: 88%;
+	height: 300px;
+	padding-left: 180px;
+	opacity: 0.8;
+}
+
+.third-section .third-boxes{
+	
+	margin: 40px 40px ;
+	width: 20%;
+	display: inline-block;
+  
+	height: 200px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+}
+
+
+.third-section .third-boxes span{
+	font-size: 0.5em;
+}
+
+.third-section  .first-third-box:hover{
+	background-color: lightgreen;
+	border-radius: 20px;
+	transition: 2s;
+	cursor: pointer;
+}
+
+.third-section   .second-third-box:hover{
+	background-color: lightblue;
+	border-radius: 20px;
+	transition: 2s;
+	cursor: pointer;
+}
+
+.third-section  .third-third-box:hover{
+	background-color: yellow;
+	border-radius: 20px;
+	transition: 2s;
+	cursor: pointer;
+}
+
+                                         /* the footer */
+
+  .the-footer{
+  	position: absolute;
+  	left: 0;
+  	right: 0;
+  	height: 20px;
+  	
+
+  	margin-top: 1650px;
+  	text-align: center;
+  	padding-bottom: 15px;
+  	font-size: 1.5em;
+  	font-weight: 300;
+  }
+
+  .the-footer a{
+  font-weight: 900;
+  color: red;
+  text-decoration: none;
+  }
+ 
+ .the-footer img{
+ 	margin: 0px 5px 0px 20px;
+ }
